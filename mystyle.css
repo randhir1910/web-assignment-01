@@ -4,6 +4,9 @@
     text-align: center;
     height: 60px;
 }
+#myNavbar{
+    float: right;
+}
 
 .maindiv {
     padding: 0px;
@@ -41,7 +44,7 @@
 }
 
 .carousel-caption {
-    top: 20%;
+    top: 20% ;
     bottom: auto;
     color: black;
     font-size: medium;
@@ -55,6 +58,16 @@
     width: 100%;
     opacity: 0.5;
     background-color: gray;
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-inner {
+        height: 300px;
+        position: relative;
+    }
+    .carousel-caption {
+        font-size:small;
+    }
 }
 
 ul li a {
